@@ -1,9 +1,7 @@
 # Dockerized GodotPckTool Script Documentation
 
 ## Description
-This script simplifies the interaction with the [Dockerized GodotPckTool](https://github.com/vaflz-1/Dockerized_GodotPckTool/tree/main) on Mac, providing an easy-to-use interface for the tool's internal functionality. It automates the process of setting up the Docker environment, managing `.pck` files, and customizing paths and file names, making the overall workflow more efficient and user-friendly.
-The script is designed to streamline the workflow on Mac systems by automating various tasks such as Docker container management, `.pck` file extraction and updating, and more. It offers an interactive menu-driven interface that guides the user through different operations, ensuring a smooth and hassle-free experience with the GodotPckTool.
-
+This script simplifies the interaction with the [Dockerized GodotPckTool](https://github.com/vaflz-1/Dockerized_GodotPckTool/tree/main) on Mac, providing an easy-to-use interface for the tool's internal functionality. It automates the process of setting up the Docker environment, managing `.pck` files, and customizing paths and file names, making the overall workflow more efficient and user-friendly. The script is primarily based on working with the `.pck` file of the licensed Steam version of the game "The Case of the Golden Idol".
 
 ## Features
 - Perform a full installation including Docker setup, file extraction, and cleaning.
@@ -32,7 +30,6 @@ The script is designed to streamline the workflow on Mac systems by automating v
 9. Clean Docker
 10. Exit
 
-
 ### Configuration and Customization
 The script allows you to customize the source path, destination path, and the `.pck` file name through an interactive menu. These settings are persistent across sessions thanks to a configuration file.
 
@@ -53,11 +50,12 @@ You can choose between English and Russian at the beginning of the script. The e
 ## Disclaimer
 The authors are not responsible for any damage or data loss incurred due to the use of this script. Please use it responsibly and ensure you have backups of important files.
 
+---
+
 # Документация к скрипту Dockerized GodotPckTool
 
 ## Описание
-Этот скрипт упрощает взаимодействие с [Dockerized GodotPckTool](https://github.com/vaflz-1/Dockerized_GodotPckTool/tree/main) на Mac, предоставляя удобный интерфейс для внутреннего функционала инструмента. Скрипт автоматизирует процесс настройки среды Docker, управления `.pck` файлами и настройки путей и имен файлов, делая общий рабочий процесс более эффективным и удобным для пользователя.
-Скрипт предназначен для оптимизации рабочего процесса на системах Mac, автоматизируя различные задачи, такие как управление контейнерами Docker, извлечение и обновление `.pck` файлов и многое другое. Он предлагает интерактивный интерфейс на основе меню, который направляет пользователя через различные операции, обеспечивая плавный и безпроблемный опыт работы с GodotPckTool.
+Этот скрипт упрощает взаимодействие с [Dockerized GodotPckTool](https://github.com/vaflz-1/Dockerized_GodotPckTool/tree/main) на Mac, предоставляя удобный интерфейс для внутреннего функционала инструмента. Скрипт автоматизирует процесс настройки среды Docker, управления `.pck` файлами и настройки путей и имен файлов, делая общий рабочий процесс более эффективным и удобным для пользователя. Скрипт в основном ориентирован на работу с `.pck` файлом лицензионной версии Steam игры "The Case of the Golden Idol".
 
 ## Возможности
 - Выполнение полной установки, включая настройку Docker, извлечение файлов и очистку.
@@ -85,7 +83,6 @@ The authors are not responsible for any damage or data loss incurred due to the 
 8. Собрать idle Docker образ
 9. Очистить Docker
 10. Выйти
-
 
 ### Настройка и Кастомизация
 Скрипт позволяет настраивать исходный путь, путь назначения и имя файла `.pck` через интерактивное меню. Эти настройки сохраняются между сеансами благодаря конфигурационному файлу.
